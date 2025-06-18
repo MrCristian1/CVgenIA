@@ -1,30 +1,61 @@
-# Cv generator app
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+# CVgenIA - Generador de Hojas de Vida Inteligente
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/cristianoronaldo8k-gmailcoms-projects/v0-cv-generator-app)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/rAFdP62e54h)
+[![Deploy en Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com)
+[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev)
 
-## Overview
+## 🧠 ¿Qué es CVgenIA?
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+CVgenIA es una aplicación web que te permite generar hojas de vida (currículums) profesionales en minutos. Utiliza inteligencia artificial para ayudarte a redactar descripciones de experiencia, resúmenes profesionales y adaptar tu CV según el perfil deseado.
 
-## Deployment
+## 🎯 Objetivo
 
-Your project is live at:
+Facilitar la creación de hojas de vida impactantes y personalizadas, especialmente para personas sin experiencia previa en redacción de currículums o con poco tiempo para hacerlo manualmente.
 
-**[https://vercel.com/cristianoronaldo8k-gmailcoms-projects/v0-cv-generator-app](https://vercel.com/cristianoronaldo8k-gmailcoms-projects/v0-cv-generator-app)**
+## 💡 Valor agregado
 
-## Build your app
+- 🎨 Diseños personalizables y modernos.
+- ✍️ Redacción automática asistida por IA (experiencia, perfil, objetivos).
+- 🔍 Adaptación del CV al tipo de vacante (marketing, tech, salud, etc.).
+- 🌐 Exportación en PDF lista para enviar.
+- 💾 Almacenamiento en localStorage para no perder tu progreso.
 
-Continue building your app on:
+## 🚀 Tecnologías Usadas
 
-**[https://v0.dev/chat/projects/rAFdP62e54h](https://v0.dev/chat/projects/rAFdP62e54h)**
+- **v0.dev** + **ShadCN/UI**: Para construir la interfaz visual con componentes modernos.
+- **React** + **Vite**: Frontend rápido y modular.
+- **TailwindCSS**: Estilos responsivos y minimalistas.
+- **OpenAI API**: Redacción inteligente de contenido.
+- **Lucide React**: Iconografía moderna.
+- **Zod** + **React Hook Form**: Validación y manejo de formularios.
+- **Vercel**: Despliegue instantáneo.
 
-## How It Works
+## 📦 Estructura del Proyecto
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- `/components`: Componentes reutilizables de la UI.
+- `/app`: Páginas principales del generador.
+- `/lib`: Funciones auxiliares e integración con la IA.
+- `/types`: Tipado global para mantener consistencia.
+
+## 📄 Cómo usar
+
+1. Selecciona un diseño de hoja de vida.
+2. Ingresa tu información personal y profesional.
+3. Usa la IA para redactar o mejorar tus textos.
+4. Visualiza el resultado final en tiempo real.
+5. Exporta a PDF y ¡listo!
+
+## 🛣 Roadmap futuro
+
+- 🧠 Mejorar la personalización de tono en los textos generados.
+- 🌐 Modo multilingüe (inglés y portugués).
+- ☁️ Login con Google y guardado en la nube.
+- 📂 Carga de CV existentes para transformarlos.
+
+## 🤝 Contribuciones
+
+¡Bienvenido a colaborar! Puedes sugerir mejoras o abrir issues.
+
+---
+
+**CVgenIA** es ideal para quienes quieren destacar con un CV profesional, moderno y bien escrito, sin necesidad de ser expertos en diseño o redacción.
